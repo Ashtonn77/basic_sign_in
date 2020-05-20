@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
 :root {
   --success-color: #2ecc71;
   --error-color: #e74c3c;
@@ -9,6 +11,8 @@
 
 body {
   background: #e7dede;
+  font-family: "Balsamiq Sans", cursive;
+  letter-spacing: 0.8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,9 +83,11 @@ h2 {
 }
 
 .form button {
+  font-family: "Balsamiq Sans", cursive;
+  letter-spacing: 0.8px;
   cursor: pointer;
-  background-color: #00af98;
-  border: 2px solid #00af98;
+  background-color: #2693b4;
+  border: 2px solid #2693b4;
   border-radius: 3px;
   color: white;
   margin-top: 10px;
